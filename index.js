@@ -27,11 +27,9 @@
 // criado a Lista de herois.
 let heroi = ['Aço','Capitão Valor', 'Fenix Dourada ',' Arcanjo Rubro', 'Pixel Defensor','TechVanguard','Guardião das Chamas','Eclipse Arcano']
 
-//variavel para armazenar o nivel XP.
-let categoria = ''
 
 // NivelXP informado para categorizar.
-let nivelXP = 10003
+let nivelXP = 6050
 
 //criando a condição.
 
