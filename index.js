@@ -31,24 +31,27 @@ let heroi = ['Aço','Capitão Valor', 'Fenix Dourada ',' Arcanjo Rubro', 'Pixel 
 // NivelXP informado para categorizar.
 let nivelXP = 6050
 
-//criando a condição.
+//criando a condição.s
 
 if (nivelXP <= 1000) {
     categoria = 'Ferro'}
 
- else if (nivelXP <= 2001) {
+ else if (nivelXP >= 1001 && nivelXP <=  2000) {
     categoria = 'Bronze' }
 
- else if (nivelXP <= 6001) {
+ else if ( nivelXP >= 2001 && nivelXP <=  5000) {
     categoria = 'Prata' }
 
- else if (nivelXP <= 7001) {
-    categoria = 'Platina Diamante'}
+ else if (nivelXP >= 6001 && nivelXP <= 7000) {
+    categoria = 'Ouro'}
+   
+ else if (nivelXP >= 7001 && nivelXP <= 8000) {
+      categoria = 'Platina Diamante'}
 
- else if (nivelXP <= 8001) {
+ else if (nivelXP >= 8001 && nivelXP <=  9000) {
     categoria = 'Ascendente' }
 
- else if (nivelXP <= 9001) {
+ else if (nivelXP >= 9001 && nivelXP <=  10000) {
     categoria = 'Imortal' }
 
  else if (nivelXP >= 10001) {
